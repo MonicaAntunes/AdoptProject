@@ -1,4 +1,4 @@
-package org.adopt.controller.cachorroController;
+package org.adopt.controller.dogController;
 
 import org.adopt.model.Dog;
 import org.adopt.service.dogService.DogService;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/cachorros")
-public class CachorroController {
+public class DogController {
     private DogService dogService;
 
     @PostMapping

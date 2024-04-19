@@ -1,4 +1,4 @@
-package org.adopt.controller.gatoController;
+package org.adopt.controller.catController;
 
 import org.adopt.dto.catDto.CatRequest;
 import org.adopt.model.Cat;
@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/gatos")
-public class GatoController {
+public class CatController {
 
     private final CatService catService;
 
-    public GatoController(CatService catService) {
+    public CatController(CatService catService) {
         this.catService = catService;
     }
 
